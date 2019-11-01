@@ -1,3 +1,14 @@
+﻿指令: git remote add origin https://github.com/sylar-z/storehouse.git
+用途：关联远端github库
+
+
+指令: 
+ ssh-keygen -t rsa -C "zhuzhbest@sina.com"
+ cat ~/.ssh/id_rsa.pub
+ ssh-add id_rsa
+用途：产生密匙并显示，用于关联密匙
+
+
 指令: git pull origin master --allow-unrelated-histories
 解决以下情况：
 $ git push -u origin master
