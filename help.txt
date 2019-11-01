@@ -1,0 +1,21 @@
+指令: git pull origin master --allow-unrelated-histories
+解决以下情况：
+$ git push -u origin master
+Warning: Permanently added the RSA host key for IP address '13.250.177.223' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+$ ssh git@github.com
+PTY allocation request failed on channel 0
+Hi sylar-z! You've successfully authenticated, but GitHub does not provide shell access.
+Connection to github.com closed.
+
+$ git push --set-upstream origin master
+To github.com:sylar-z/storehouse.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:sylar-z/storehouse.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
