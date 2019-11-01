@@ -1,5 +1,5 @@
-Ö¸Áî: git pull origin master --allow-unrelated-histories
-½â¾öÒÔÏÂÇé¿ö£º
+æŒ‡ä»¤: git pull origin master --allow-unrelated-histories
+è§£å†³ä»¥ä¸‹æƒ…å†µï¼š
 $ git push -u origin master
 Warning: Permanently added the RSA host key for IP address '13.250.177.223' to the list of known hosts.
 git@github.com: Permission denied (publickey).
